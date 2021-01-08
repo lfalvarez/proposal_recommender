@@ -71,10 +71,12 @@ THIRD_PARTY_APPS = [
     "allauth",
     "allauth.account",
     "allauth.socialaccount",
+    "dj_proposals_candidates",
 ]
 
 LOCAL_APPS = [
     "proposal_recommender.users.apps.UsersConfig",
+    "proposal_recommender.recommender.apps.RecommenderConfig",
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
