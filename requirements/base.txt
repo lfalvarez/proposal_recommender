@@ -7,6 +7,7 @@ hiredis==1.1.0  # https://github.com/redis/hiredis-py
 -e git://github.com/lfalvarez/proposals-core.git#egg=proposals_core
 -e git://github.com/lfalvarez/proposal_similarity_processor.git#egg=proposal_similarity_processor
 python-graphql-client==0.4.2
+django-model-utils==4.1.1
 
 # Django
 # ------------------------------------------------------------------------------
