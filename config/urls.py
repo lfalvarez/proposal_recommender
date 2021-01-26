@@ -14,6 +14,8 @@ urlpatterns = [
     path(settings.ADMIN_URL, admin.site.urls),
     # User management
     path("users/", include("proposal_recommender.users.urls", namespace="users")),
+    path("recommendations/", include("proposal_recommender.recommender.urls", namespace="recommender")),
+
     path("accounts/", include("allauth.urls")),
     # Your stuff: custom urls includes go here
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
