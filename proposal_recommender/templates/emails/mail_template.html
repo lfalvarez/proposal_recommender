@@ -1,0 +1,37 @@
+{% extends "htmlemailer/boilerplate.html" %}
+
+{% block head %}
+<style>
+#backgroundTable {
+	background-color: blue;
+	color: white;
+}
+#content-area {
+	padding: 1em;
+}
+a {
+	color: #262;
+}
+</style>
+{% block extra_head %}
+{% endblock %}
+{% endblock %}
+
+{% block body %}
+
+{% block content %}
+{% endblock %}
+
+<hr>
+<p>Ahora Nos Toca Participar.</p>
+
+{% endblock %}
+
+from htmlemailer import send_mail
+send_mail(
+  "emails/mail",
+  "My Site <mysite@example.org>",
+  ["you@recipient.com"],
+  {
+  "my_message": "Hello & good day to you!"
+  })

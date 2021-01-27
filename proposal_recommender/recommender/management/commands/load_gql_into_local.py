@@ -37,12 +37,6 @@ query = """
                 nickname
                 name
               }
-              author {
-                profilePath
-                avatarUrl
-                nickname
-                name
-              }
             }
           }
         }
@@ -70,4 +64,4 @@ class Command(BaseCommand):
           vector = search_engine.vectorize(proposal.title)
           return vector
         process_proposals_from_data(data, url, get_representation_function=vectorize_proposal)
-                
+

@@ -72,6 +72,7 @@ THIRD_PARTY_APPS = [
     "allauth.account",
     "allauth.socialaccount",
     "dj_proposals_candidates",
+    "htmlemailer",
 ]
 
 LOCAL_APPS = [

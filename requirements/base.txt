@@ -4,10 +4,16 @@ Pillow==8.1.0  # https://github.com/python-pillow/Pillow
 argon2-cffi==20.1.0  # https://github.com/hynek/argon2_cffi
 redis==3.5.3  # https://github.com/andymccurdy/redis-py
 hiredis==1.1.0  # https://github.com/redis/hiredis-py
--e git://github.com/lfalvarez/proposals-core.git#egg=proposals_core
+-e git://github.com/lfalvarez/proposals-core.git#egg=dj-proposals-candidates
 -e git://github.com/lfalvarez/proposal_similarity_processor.git#egg=proposal_similarity_processor
 python-graphql-client==0.4.2
 django-model-utils==4.1.1
+torch
+transformers
+scipy
+commonmark==0.9.1
+-e git+https://github.com/hughdavenport/CommonMark-py-Extensions.git@patch-2#egg=commonmarkextensions
+django-html-emailer
 
 # Django
 # ------------------------------------------------------------------------------

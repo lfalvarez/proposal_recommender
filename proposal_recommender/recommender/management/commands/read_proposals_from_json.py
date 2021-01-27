@@ -1,7 +1,5 @@
 from django.core.management.base import BaseCommand, CommandError
 from dj_proposals_candidates.models import Territory, Proposal
-#from proposal_similarity_processor.BETO_search_engine import BETOSearchEngine
-#from proposal_similarity_processor.similarity_searcher import SimilaritySearcher
 from proposal_similarity_processor.document import Document
 #from recommender.models import Recomendation
 import json
