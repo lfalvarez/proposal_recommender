@@ -11,9 +11,8 @@ django-model-utils==4.1.1
 torch
 transformers
 scipy
-commonmark==0.9.1
--e git+https://github.com/hughdavenport/CommonMark-py-Extensions.git@patch-2#egg=commonmarkextensions
 django-html-emailer
+celery==5.0.5
 
 # Django
 # ------------------------------------------------------------------------------
